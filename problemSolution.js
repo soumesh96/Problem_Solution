@@ -1,21 +1,21 @@
-farr =[]
-array =[1,5,6,10,11,15,16,20,21,25,30,35]  // edit your own array
-x=arr
-diff = 5; //edit yout own difference
-for(let i=0;i<array.length;i++)
+finalArray =[]
+ array =[1,2,3,4,5,6,7,8,9,10]  // create your own array
+ x=array
+ dif = 1; //create yout own difference
+for(let i=0;i<arr.length;i++)
 {
     a = array[i];
 
-    for(let itr =0;itr<x.length;itr++)
+    for(let j =0;j<x.length;j++)
     {
-        b=x[itr];
+        b=x[j];
 
-        if( (a-b) == Math.abs(diff) )
+        if( (a-b) == Math.abs(dif) )
         {
 
-            farr.push(([a,b]))
+            finalArray.push(([a,b]))
 
         }
     }
 }
-console.log('res',farr)
+console.log('res',finalArray)
